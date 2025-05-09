@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="kitaplik.css">
+    <title>Filter List</title>
+</head>
+
+<body>
+    <div class="row">
+        <div class="operation">
+            <form>
+                <table>
+                    <tr>
+                        <td>ISBN:</td>
+                        <td><input type="text" class="value"></td>
+                    </tr>
+                    <tr>
+                        <td>Kitap İsmi:</td>
+                        <td><input type="text" class="value"></td>
+                    </tr>
+                    <tr>
+                        <td>Kitap Yazarı:</td>
+                        <td><input type="text" class="value"></td>
+                    </tr>
+                    <tr>
+                        <td>Yayın Yılı:</td>
+                        <td><input type="text" class="value"></td>
+                    </tr>
+                    <tr>
+                        <td>Kitap Puanı:</td>
+                        <td><input type="text" class="value"></td>
+                    </tr>
+                </table>
+            </form>
+            <table>
+                <tr>
+                    <td><button id="ekle" onclick="veriKontrolu(1)">Kitap Ekle</button></td>
+                    <td><button id="sil" onclick="veriKontrolu(2)">Kitap Sil</button></td>
+                </tr>
+                <tr>
+                    <td><button id="bul" onclick="veriKontrolu(3)">Kitap Bul</button></td>
+                    <td><button id="temizle" onclick="verileriTemizle()">Temizle</button></td>
+                </tr>
+                <tr>
+                    <td><button id="guncelle" disabled onclick="veriKontrolu(4)">Kitap Güncelle</button></td>
+                </tr>
+            </table>
+        </div>
+        <div class="table">
+            <table border="1" class="content">
+                <tr>
+                    <th>ISBN</th>
+                    <th>Kitap İsmi</th>
+                    <th>Kitap Yazarı</th>
+                    <th>Yayın Yılı</th>
+                    <th>Kitap Puanı</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="kitaplik.js"></script>
+</body>
+
+</html>

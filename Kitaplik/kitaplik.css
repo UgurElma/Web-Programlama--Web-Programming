@@ -1,0 +1,17 @@
+.row{
+    margin: auto;
+    margin-top: 100px;
+    width: 80%;
+}
+.operation{
+    display: inline-block;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid black;
+}
+.table{
+    display: inline-block;
+    width: 800px;
+    padding: 20px;
+    border: 1px solid black;
+}

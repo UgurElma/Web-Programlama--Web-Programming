@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Yapılacaklar Listesi</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="" style="display: inline-block;">
+            <input type="text" id="ekleme" placeholder="Yapılacak giriniz..." style="padding: 3px; border: 2px solid black; border-radius: 5px;">
+        </form>
+        <button class="btnAdd" type="submit" onclick="cElementRow()">Ekle</button>
+        <form action="" style="display: inline-block; margin-top: 20px;">
+            <input type="text" id="filtre" placeholder="Filtreleme..." style="padding: 3px; border: 2px solid black; border-radius: 5px;">
+        </form>
+        <button class="filtre" type="submit" onclick="filtreleme()">Ara</button>
+        <div class="tableContainer">
+            
+        </div>
+    </div>
+    <!--HTML ye js ekleme-->
+    <script src="myexample.js"></script>
+</body>
+
+</html>

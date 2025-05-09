@@ -1,0 +1,40 @@
+.container {
+    width: 600px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#ekleme {
+    width: 200px;
+    height: 20px;
+}
+
+.tableContainer {
+    margin-top: 50px;
+    height: 500px;
+}
+
+.btnAdd {
+    background-color: rgb(7, 63, 7);
+    color: rgb(236, 233, 229);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.row {
+    border: 1px solid rgb(75, 74, 74);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.content {
+    display: inline-block;
+    width: 550px;
+}
+
+.kapa {
+    display: inline-block;
+    margin-left: 10px;
+}
